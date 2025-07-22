@@ -6,7 +6,7 @@ import plotly.express as px
 # Snowflake connection
 conn = snowflake.connector.connect(
     user="Abheesh",
-    password="Abheeshdp28m416,
+    password="Abheeshdp28m416",
     account="GHDSQFZ-FS70206",
     warehouse="COMPUTE_WH",
     database="SNOWFLAKE_LEARNING_DB",
