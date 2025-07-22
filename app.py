@@ -5,9 +5,9 @@ import plotly.express as px
 
 # Snowflake connection
 conn = snowflake.connector.connect(
-    user=os.getenv("SNOWFLAKE_USER"),
-    password=os.getenv("SNOWFLAKE_PASSWORD"),
-    account=os.getenv("SNOWFLAKE_ACCOUNT"),
+    user="Abheesh",
+    password="Abheeshdp28m416,
+    account="GHDSQFZ-FS70206",
     warehouse="COMPUTE_WH",
     database="SNOWFLAKE_LEARNING_DB",
     schema="ABHEESH_LOAD_DATA_FROM_AMAZON_AWS"
